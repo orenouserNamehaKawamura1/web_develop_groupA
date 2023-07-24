@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 採用情報ページcss */
+#employment .headline {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+#employment .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:30px;
+}
+
+#employment h3{
+    text-align: center;
+}
+#employment .employee_list {
+    max-width: 1200px;
+    
+}
+#employment .employee_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+
+#employment ul li img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+#employment .emp{
+    font-size: 25px;
+}
+
+
+
+#employment .btn--button,
+a.btn-button {
+  color: #fff;
+  background-color: #00A8A9;
+}
+#employment .btn--button:hover,
+a.btn--button:hover {
+  color: #fff;
+  background: #00A8A9;
+}
+
+#employment ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#employment ul li .emp {
+    margin: 0 100px 0 100px;
+}
+
+#employment table{
+    width: 60%;
+    height:800px;
+    margin: auto;
+    border: 2px #808080 solid;
+    table-layout: fixed;
+}
+#employment thead td {
+    background-color: #CCD0D9;
+    font-size: 20px;
+    text-align: center;
+
+}
+#employment tbody th{
+    border: 2px #808080 solid;
+    background-color: #CCD0D9;
+}
+#employment tbody td{
+    border: 1px #808080 solid;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
