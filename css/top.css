@@ -1,0 +1,291 @@
+/* topページ */
+/* コンテンツ幅の指定 */
+#top .content {
+  max-width: 80%;
+  margin: 0 auto;
+  /* background-color:#fafafa; */
+}
+
+ /* 見出し */
+
+#top h1{
+  text-align: center;
+  color: #265DA6;
+  margin: 60px;
+}
+
+/* ページTOP*/
+#top .container{
+    position: relative;
+    width: 100%;
+
+}
+
+#top .container img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center top;
+  }
+/* ページTOP画像の文字*/
+#top .container b{
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+}
+/* ページTOP画像の上の文字*/
+#top .container .up{
+    color: #fff;
+    -webkit-text-stroke: 1px #707070;
+    left: 5px;
+    top: 15px;
+    font-size: 30px;
+    
+}
+/* ページTOP画像の下の文字*/
+#top .container .under {
+    color: #fff;
+    -webkit-text-stroke: 1px #707070;
+    right: 5px;
+    bottom: 25%;
+    font-size: 30px;
+  }
+
+/* 施工例遷移 */
+#top .flex{
+    display: flex;              
+    flex-wrap: wrap; 
+    justify-content:center;
+  }
+
+
+#top .sekou{
+    width: 300px;
+    height: 260px;    
+    /* background: transparent; */
+    padding: 8px;
+  
+  }
+
+/* 施工例遷移画像 */
+#top .sekou img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+    border: 1px solid #707070;
+
+  }
+
+#top .sekou a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.3s;
+    background-color: #6698D9;
+	border: 1px solid #fff;
+}
+
+#top .sekou a:hover {
+	color: #f2f2f2;
+}
+
+#top .sekou a:hover {
+	background-color: #3068D9;
+	border: 1px solid #333;
+}
+
+#top .sekou a::after {
+	content: '>';
+	
+}
+  
+
+/* 施工実績遷移ボタン */
+#top .achi{
+  /* margin: 90px; */
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 405px;
+	height: 100px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: 0.3s;
+    background-color: #6698D9;
+	border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+#top .parent a:hover {
+	background-color: #3068D9;
+	border: 1px solid #333;
+}
+#top .parent a::after {
+	content: '>';
+	
+}
+
+#top .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  
+}
+#top .parent a:hover {
+	color: #f2f2f2;
+}
+
+
+
+/* お客様の声*/
+#top .card-container{
+  display:flex;
+  max-width: 100%;
+  height: 200px;
+  margin: 50px;
+}
+
+#top .card-text{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center; 
+  border: 1px solid #ccc;
+
+}
+
+#top figcaption {
+  display:block;
+  text-align:center;
+  font-size:smaller;
+}
+
+#top .card-text p{
+  margin: 18px;
+}
+
+#top .card-img{
+  margin-right: 30px;
+
+}
+
+/* 問い合わせの流れ*/
+#top .step{
+  width: 180px;
+  height: 200px;  
+  border: 1px solid #ccc; 
+  margin: 30px; 
+}
+
+#top .ste{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px; 
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+  background-color: #CCD0D9;
+}
+#top .card-step{
+  display: flex;              
+  flex-wrap: wrap; 
+  justify-content:center;
+
+}
+/* 問い合わせの流れ*/
+#top .step a{
+  width: 180px;
+  height: 200px;
+  display: flex;
+	justify-content: center;
+	/* align-items: center; */
+  padding-top: 15px;
+  }
+
+  
+
+/* よくある質問 */
+#top .slide-btn {
+    display: block;
+    width: auto;
+    margin: auto auto 25px auto;
+    text-align: center;
+    padding: 10px;
+    border: white;
+    color: white;
+    background: #6698D9;
+    cursor: pointer;
+  }
+  /* よくある質問疑似要素 */
+#top .after a{
+  position: relative;
+
+}
+#top .after a::after {
+    content: "";
+    top: 7px;
+    right: 15px;
+    border: 15px solid transparent;
+    border-top: 25px solid #fff;
+    position: absolute;
+  }
+ 
+#top .slide-contents {
+    width: 995px;
+    height: auto;
+    margin: 0 0 1.6em 0;
+    display: none;
+    border: 1px solid #ccc;
+    justify-content: center;
+    padding: 15px 0px 15px 15px;
+  }
+
+
+  /* 相談ボタン */
+  #top .sodan{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 405px;
+    height: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: #C91649;
+    border: 1px solid #fff;
+    border-radius: 100px;
+  }
+  
+#top .divsoudan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+  }
+#top .divsoudan a:hover {
+    color: #f2f2f2;
+  }
+  
+#top .divsoudan a:hover {
+    background-color: crimson;
+    border: 1px solid #333;
+  }
+  
