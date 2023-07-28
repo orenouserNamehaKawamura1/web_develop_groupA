@@ -4,7 +4,7 @@
 }
 #employment_detail .headline{
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
     object-position: center top;
 }
@@ -60,13 +60,22 @@
     justify-content: center;
     line-height: 36px;
 }
-#employment_detail .btn--button,
-a.btn-button {
+#employment_detail .btn,
+a.btn {
   color: #fff;
   background-color: #00A8A9;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  left: 50px;
+  bottom: 80px;
 }
-#employment_detail .btn--button:hover,
+#employment_detail .btn:hover,
 a.btn--button:hover {
-  color: #fff;
-  background: #00A8A9;
+  color: #00A8A9;
+  background: #fff;
+  border-color: #00A8A9;
+  border: 1px solid;
+  transition: 0.3s ease-in-out;
+
 }
